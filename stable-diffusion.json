@@ -1,0 +1,24 @@
+{
+    "Art Movement": ["Cubism", "Art Nouveau", "Baroque", "Gothic", "Renaissance", "Impressionism", "Expressionism", "Surrealism", "Romanticism", "Pop Art"],
+    "Medium": {
+        "options": ["Digital Painting", "Oil Painting", "Watercolor", "Acrylic", "Charcoal", "Pencil Sketch", "Ink Drawing", "Pastel", "Gouache", "Mixed Media"],
+        "sub-parameters": {
+            "Digital Painting": ["Photorealistic", "Concept Art", "Matte Painting", "Speed Painting", "Digital Collage"],
+            "Oil Painting": ["Impasto", "Glazing", "Alla Prima", "Sfumato", "Chiaroscuro"],
+            "Watercolor": ["Wet-on-Wet", "Wet-on-Dry", "Dry Brush", "Wash", "Lifting"]
+        }
+    },
+    "Scene": ["Urban", "Nature", "Fantasy", "Sci-Fi", "Historical", "Abstract", "Underwater", "Space", "Post-apocalyptic", "Dreamscape"],
+    "Time of Day": ["Sunrise", "Midday", "Sunset", "Night", "Golden Hour", "Blue Hour", "Twilight", "Dawn", "Dusk", "Midnight"],
+    "Weather": ["Sunny", "Rainy", "Snowy", "Foggy", "Stormy", "Windy", "Cloudy", "Hazy", "Clear", "Thunderous"],
+    "Lighting": {
+        "options": ["Natural", "Artificial", "Atmospheric", "Dramatic"],
+        "sub-parameters": {
+            "Natural": ["Sunlight", "Moonlight", "Starlight", "Overcast", "Dappled"],
+            "Artificial": ["Neon", "Fluorescent", "Incandescent", "LED", "Candlelight"],
+            "Atmospheric": ["Misty", "Hazy", "Smoky", "Dusty", "Glowing"],
+            "Dramatic": ["High Contrast", "Low Key", "Rim Lighting", "Silhouette", "Volumetric"]
+        }
+    },
+    "Composition": ["Rule of Thirds", "Golden Ratio", "Symmetrical", "Asymmetrical", "Leading Lines", "Framing", "Perspective", "Minimalist", "Chaotic", "Panoramic"]
+}

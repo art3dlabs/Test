@@ -1,0 +1,16 @@
+{
+    "Tone": ["Professional", "Casual", "Humorous", "Serious", "Inspirational", "Empathetic", "Authoritative", "Neutral", "Enthusiastic", "Sarcastic"],
+    "Length": ["Concise", "Detailed", "Brief", "Comprehensive", "Bullet Points", "Paragraph", "Essay", "One-liner", "Multi-page", "Twitter-length"],
+    "Audience": ["Beginners", "Experts", "General Public", "Students", "Professionals", "Children", "Teenagers", "Seniors", "Technical", "Non-technical"],
+    "Purpose": {
+        "options": ["Inform", "Persuade", "Entertain", "Analyze", "Instruct", "Summarize", "Compare", "Critique", "Inspire", "Clarify"],
+        "sub-parameters": {
+            "Inform": ["Explain Concept", "Provide Facts", "Update on Event", "Define Term", "Describe Process"],
+            "Persuade": ["Call to Action", "Change Opinion", "Sell Product", "Defend Position", "Encourage Behavior"],
+            "Entertain": ["Tell Story", "Joke", "Satire", "Amusing Anecdote", "Engaging Scenario"]
+        }
+    },
+    "Format": ["Essay", "Dialogue", "List", "Story", "Q&A", "Script", "Poem", "News Article", "Blog Post", "Social Media Post"],
+    "Style": ["Formal", "Informal", "Academic", "Conversational", "Journalistic", "Literary", "Technical", "Poetic", "Narrative", "Expository"],
+    "Perspective": ["First Person", "Second Person", "Third Person", "Omniscient", "Limited Omniscient", "Objective", "Subjective", "Multiple Perspectives"]
+}

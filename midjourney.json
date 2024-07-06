@@ -1,0 +1,88 @@
+{
+    "Style": {
+        "options": [
+            "Photorealistic", "Anime", "Oil Painting", "Watercolor", "3D Render",
+            "Sketch", "Cartoon", "Pixel Art", "Vector", "Impressionist",
+            "Expressionist", "Surrealist", "Minimalist", "Abstract", "Pop Art",
+            "Art Nouveau", "Baroque", "Renaissance", "Gothic", "Cubist"
+        ],
+        "sub-parameters": {
+            "Photorealistic": ["Portrait", "Landscape", "Still Life", "Architecture", "Wildlife"],
+            "Anime": ["Shounen", "Shoujo", "Seinen", "Josei", "Mecha", "Magical Girl"],
+            "Oil Painting": ["Impressionist", "Expressionist", "Realist", "Abstract", "Surrealist"]
+        }
+    },
+    "Color": [
+        "Red", "Blue", "Green", "Yellow", "Purple", "Orange", "Pink", "Brown",
+        "Black", "White", "Gray", "Teal", "Maroon", "Navy", "Olive", "Mint",
+        "Coral", "Lavender", "Turquoise", "Gold", "Silver", "Bronze", "Copper",
+        "Magenta", "Cyan", "Indigo", "Violet", "Beige", "Ivory", "Charcoal"
+    ],
+    "Location": {
+        "options": [
+            "Natural", "Urban", "Fantasy", "Sci-Fi", "Historical", "Abstract"
+        ],
+        "sub-parameters": {
+            "Natural": [
+                "Beach", "Mountain", "Forest", "Desert", "Jungle", "Arctic",
+                "Volcano", "Cave", "Island", "Meadow", "Underwater"
+            ],
+            "Urban": [
+                "City", "Suburb", "Skyscraper", "Alley", "Rooftop", "Subway",
+                "Park", "Market", "Stadium", "Airport", "Harbor"
+            ],
+            "Fantasy": [
+                "Enchanted Forest", "Floating Island", "Crystal Cave", "Dragon's Lair",
+                "Wizard's Tower", "Fairy Village", "Underwater Kingdom", "Cloud City"
+            ],
+            "Sci-Fi": [
+                "Space Station", "Alien Planet", "Cyberpunk City", "Time Vortex",
+                "Quantum Realm", "Holographic Interface", "Nanotech Lab"
+            ],
+            "Historical": [
+                "Ancient Rome", "Medieval Castle", "Victorian London", "Wild West",
+                "Ancient Egypt", "Feudal Japan", "Renaissance Italy"
+            ],
+            "Abstract": [
+                "Geometric Shapes", "Fractal Space", "Surreal Landscape",
+                "Impossible Architecture", "Dream World", "Optical Illusion"
+            ]
+        }
+    },
+    "Lighting": {
+        "options": [
+            "Natural", "Artificial", "Atmospheric", "Stylized"
+        ],
+        "sub-parameters": {
+            "Natural": ["Daylight", "Sunset", "Sunrise", "Moonlight", "Overcast", "Storm"],
+            "Artificial": ["Neon", "Fluorescent", "Incandescent", "LED", "Spotlight", "Studio"],
+            "Atmospheric": ["Foggy", "Misty", "Hazy", "Smoky", "Dusty", "Clear"],
+            "Stylized": ["High Contrast", "Low Key", "High Key", "Silhouette", "Rim Lighting"]
+        }
+    },
+    "Perspective": [
+        "Close-up", "Wide-angle", "Bird's eye view", "Worm's eye view", "Isometric",
+        "First-person", "Third-person", "Aerial", "Panoramic", "Fish-eye",
+        "Macro", "Tilt-shift", "Over-the-shoulder", "Dutch angle", "Forced perspective"
+    ],
+    "Mood": [
+        "Happy", "Sad", "Mysterious", "Energetic", "Calm", "Tense", "Romantic",
+        "Scary", "Peaceful", "Chaotic", "Nostalgic", "Futuristic", "Whimsical"
+    ],
+    "Time Period": {
+        "options": [
+            "Prehistoric", "Ancient", "Medieval", "Renaissance", "Industrial Revolution",
+            "Modern", "Contemporary", "Future", "Post-Apocalyptic"
+        ],
+        "sub-parameters": {
+            "Prehistoric": ["Stone Age", "Bronze Age", "Iron Age", "Ice Age"],
+            "Ancient": ["Ancient Egypt", "Ancient Greece", "Ancient Rome", "Ancient China"],
+            "Medieval": ["Early Middle Ages", "High Middle Ages", "Late Middle Ages"],
+            "Renaissance": ["Early Renaissance", "High Renaissance", "Late Renaissance"],
+            "Industrial Revolution": ["First Industrial Revolution", "Second Industrial Revolution"],
+            "Modern": ["Roaring Twenties", "World War Era", "Cold War Era", "Information Age"],
+            "Future": ["Near Future", "Distant Future", "Alternate Future"],
+            "Post-Apocalyptic": ["Nuclear Wasteland", "Zombie Apocalypse", "Climate Disaster", "Alien Invasion"]
+        }
+    }
+}

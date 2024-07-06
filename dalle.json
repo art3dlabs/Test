@@ -1,0 +1,22 @@
+{
+    "Art Style": {
+        "options": ["Digital Art", "Surrealism", "Pop Art", "Abstract", "Impressionism", "Realism", "Minimalism", "Cubism", "Art Nouveau", "Expressionism"],
+        "sub-parameters": {
+            "Digital Art": ["2D Illustration", "3D Rendering", "Pixel Art", "Vector Graphics", "Photo Manipulation"],
+            "Surrealism": ["Dreamlike", "Juxtaposition", "Metamorphosis", "Symbolic", "Biomorphic"],
+            "Pop Art": ["Bold Colors", "Comic Book Style", "Repetition", "Consumerism", "Celebrity Portraits"]
+        }
+    },
+    "Color Scheme": ["Pastel", "Vibrant", "Monochrome", "Complementary", "Analogous", "Triadic", "Earth Tones", "Neon", "Muted", "Grayscale"],
+    "Composition": ["Symmetrical", "Rule of Thirds", "Golden Ratio", "Dynamic", "Minimalist", "Chaotic", "Centered", "Off-center", "Diagonal", "Framed"],
+    "Mood": ["Joyful", "Melancholic", "Mysterious", "Serene", "Energetic", "Romantic", "Eerie", "Nostalgic", "Whimsical", "Dramatic"],
+    "Lighting": {
+        "options": ["Natural", "Artificial", "Dramatic", "Soft"],
+        "sub-parameters": {
+            "Natural": ["Sunlight", "Moonlight", "Overcast", "Golden Hour", "Blue Hour"],
+            "Artificial": ["Studio", "Neon", "Candlelight", "Fluorescent", "Spotlights"],
+            "Dramatic": ["Chiaroscuro", "Silhouette", "Backlighting", "High Contrast", "Low Key"]
+        }
+    },
+    "Subject": ["Portrait", "Landscape", "Still Life", "Animal", "Architecture", "Fantasy Creature", "Abstract Concept", "Historical Event", "Futuristic Scene", "Everyday Object"]
+}

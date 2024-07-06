@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ART3dLab</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ART3dLab</h1>
+        <div class="header-buttons">
+            <button id="loginBtn">Login</button>
+            <input type="text" id="searchBar" placeholder="Search...">
+        </div>
+    </header>
+    <main>
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="#" data-tool="digital-art">Digital Art Tools</a></li>
+                    <li><a href="#" data-tool="3d-modeling">3D Modeling</a></li>
+                    <li><a href="#" data-tool="ai-art">AI Art Generation</a></li>
+                    <li><a href="#" data-tool="textures">Texture Library</a></li>
+                    <li><a href="#" data-tool="rendering">Rendering Engine</a></li>
+                    <li><a href="#" data-tool="gallery">Community Gallery</a></li>
+                    <li><a href="#" data-tool="lab">Experimental Lab</a></li>
+                    <li><a href="#" data-tool="prompt-creator">Prompt Creator</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <section id="tool-content">
+            <div id="png-metadata-reader">
+                <h2>PNG Metadata Reader</h2>
+                <div id="metadata-reader">
+                    <input type="file" id="pngInput" accept=".png">
+                    <div id="metadata-display"></div>
+                    <button id="copyDataBtn">Copy Data</button>
+                </div>
+            </div>
+            <div id="prompt-creator-container" style="display: none;">
+                <!-- Prompt Creator content will be loaded here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="quick-access-toolbar">
+            <!-- Quick access tools will be dynamically added here -->
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="prompt-creator.js"></script>
+</body>
+</html>
